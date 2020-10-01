@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jordy's FreeCodeCamp Stock Price Checker</title>
+    <meta name="description" content="A stock price checker made by Jordy">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./public/style.css">
+    <link href="/fa/font-awesome.css" rel="stylesheet" type="text/css">
+    <script src='/jquery/jquery.min.js'></script>
+  </head>
+  <body>
+    <header>
+      <h1>
+        Jordy's FreeCodeCamp Stock Price Checker
+      </h1>
+    </header>
+    <div id="container">
+    <div id='userstories'>
+      <h3>Example usage:</h3>
+      <code>/api/stock-prices?stock=goog</code><br>
+      <code>/api/stock-prices?stock=goog&amp;like=true</code><br>
+      <code>/api/stock-prices?stock=goog&amp;stock=msft</code><br>
+      <code>/api/stock-prices?stock=goog&amp;stock=msft&amp;like=true</code><br>
+    </div>
+    <h2 style="text-align: left">Front-End:</h2>
+    <div id='formContainer' style='margin-left: 5%'>
+   
+      <div id="testForm-Container">
+      <h3>Get single price and total likes</h3>
+      <form id="testForm" class="border">
+        <input type="text" name="stock" placeholder="goog" style="width: 100px" required=''><br>
+        <button type="submit">Get Price!</button>
+        <input type="checkbox" name="like" value=true><i class="fa fa-thumbs-up"></i> Like?</input>
+      </form>
+    </div>
+    <div id="testForm2-Container">
+      <h3 style="text-align: center">Compare and get relative likes</h3>
+      <form id="testForm2" class="border">
+        <input type="text" name="stock" placeholder="goog" style="width: 100px" required=''>
+        <input type="text" name="stock" placeholder="msft" style="width: 100px" required=''><br>
+        <button type="submit">Get Price!</button>
+        <input type="checkbox" name="like" value=true><i class="fa fa-thumbs-up"></i> Like both?</input>
+      </form>
+    </div>
+    </div>
+
+      <code id='jsonResult'></code>
+  </div>
+    <footer>
+      Created by <a href="https://www.freecodecamp.org/jordyf">Jordy Ferdian</a>  
+      <button onclick="location.href='https://github.com/jordyf15'" class="fa fa-github fa-lg"></button>
+      <button onclick="location.href='https://www.linkedin.com/in/jordy-ferdian-3606041a7'" class="fa fa-linkedin-square fa-lg"></button><br>
+      For FreeCodeCamp <a href="https://www.freecodecamp.org/learn/information-security/information-security-projects/stock-price-checker">
+          Stock Price Checker</a> project
+    </footer>
+    <!-- Your web-app is https, so your scripts need to be too -->
+    <script src="/public/script.js">
+   </script>
+   
+  </body>
+</html>

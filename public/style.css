@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d1ccc0;
+}
+.fa{
+    border: none;
+    background: transparent;
+}
+code{
+    background-color: #ffb142;
+}
+#jsonResult{
+    text-align: center
+}
+header{
+    margin-bottom: 0px;
+}
+footer{
+    text-align: center;
+}
+#testForm-Container{
+    display: flex;
+    flex-direction: column;
+}
+#container{
+    width: 45%;
+    
+}
+
+#formContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
