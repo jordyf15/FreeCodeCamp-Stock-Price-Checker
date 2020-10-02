@@ -24,7 +24,6 @@ suite('Functional Tests', function() {
         .end(function(err, res){
           assert.equal(res.body.stock,'GOOG');
           assert.equal(res.status,200);
-          assert.equal('a','a')
         });
         done();
       });
