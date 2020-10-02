@@ -10,7 +10,6 @@
 //stock price api https://repeated-alpaca.glitch.me/v1/stock/[symbol]/quote
 //[symbol]=nama stock pricenya
 var expect = require('chai').expect;
-// var request = require('request');
 var axios = require('axios');
 var stock=require('../models/stock.js');
 
