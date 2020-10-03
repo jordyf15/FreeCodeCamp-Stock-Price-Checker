@@ -32,7 +32,8 @@ https://freecodecamp-stock-price-checker.jordyf15.repl.co/
 
 
 ## Project Description
-There are 3 files in total that we need to complete in order for the Stock Price Checker to function properly.
+This project was made from the FreeCodeCamp's [Boilerplate](https://repl.it/github/freeCodeCamp/boilerplate-project-stockchecker).  
+There are 3 files in total that we need to complete in order for the Stock Price Checker to function properly. 
 ### routes/api.js
 There are only 1 routes that we need to create which is the `/api/stock-prices` in this route user can request information about 1 stock or 2 stock and then compare them. To get the stock information we can use the stock price API provided by FreeCode Camp https://stock-price-checker-proxy--freecodecamp.repl.co.  
 In this route there are only 1 method which is the GET method. The user can request information about stock and like them by specifying the stock and like in the query. For each stock can only be liked by 1 ip so we need to check whether the user's ip has like it before incrementing the like count for that stock. Depending on the stock query this route will respond with either 1 stock or 2 stock.  
